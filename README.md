@@ -1,1 +1,0 @@
-# java_maven_too_ArturMariano
