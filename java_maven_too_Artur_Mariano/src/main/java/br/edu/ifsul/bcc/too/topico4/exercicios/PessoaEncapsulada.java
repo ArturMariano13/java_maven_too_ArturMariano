@@ -1,7 +1,6 @@
 
-package br.edu.ifsul.bcc.too.topico4;
+package br.edu.ifsul.bcc.too.topico4.exercicios;
 
-import br.edu.ifsul.bcc.too.topico4.exercicios.*;
 import java.util.Calendar;
 
 /**
@@ -65,13 +64,13 @@ public class PessoaEncapsulada {
     @Override
     public String toString(){
         
-        return this.cpf;
+        return " CPF: " + this.cpf + " - Nome: " + this.nome + " - Idade: " + this.idade;
     }
     
     //encapsulamento: restringe o acesso ao atributo da instância e libera o acesso vai método público.
     //dessa forma é possível controlar o que será retornado.
     public String getCPF(){        
-        return " CPF: " + this.cpf + " - Nome: " + this.nome + " Idade: " + this.idade;
+        return this.cpf;
     }
     public void setCPF(String cpf){
         this.cpf = cpf;

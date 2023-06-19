@@ -1,5 +1,7 @@
 
-package br.edu.ifsul.bcc.too.base.topico4.exercicios.util;
+package br.edu.ifsul.bcc.too.topico4.exercicios.util;
+
+import java.util.Date;
 
 /**
  *
@@ -8,11 +10,30 @@ package br.edu.ifsul.bcc.too.base.topico4.exercicios.util;
 public class ClientePessoaFisica extends Cliente {
     
     private String cpf;
+    private String nome;
+    private Date nascimento;
     
     public ClientePessoaFisica(){
         
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Date getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(Date nascimento) {
+        this.nascimento = nascimento;
+    }
+    
+    
     /**
      * @return the cpf
      */

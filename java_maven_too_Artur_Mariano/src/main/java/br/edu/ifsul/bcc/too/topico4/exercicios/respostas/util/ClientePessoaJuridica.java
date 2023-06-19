@@ -1,5 +1,5 @@
 
-package br.edu.ifsul.bcc.too.topico4.exercicios.util;
+package br.edu.ifsul.bcc.too.topico4.exercicios.respostas.util;
 
 /**
  *
@@ -30,23 +30,33 @@ public class ClientePessoaJuridica extends Cliente {
         this.cnpj = cnpj;
     }
 
+    /**
+     * @return the nomeFantasia
+     */
     public String getNomeFantasia() {
         return nomeFantasia;
     }
 
+    /**
+     * @param nomeFantasia the nomeFantasia to set
+     */
     public void setNomeFantasia(String nomeFantasia) {
         this.nomeFantasia = nomeFantasia;
     }
 
+    /**
+     * @return the razaoSocial
+     */
     public String getRazaoSocial() {
         return razaoSocial;
     }
 
+    /**
+     * @param razaoSocial the razaoSocial to set
+     */
     public void setRazaoSocial(String razaoSocial) {
         this.razaoSocial = razaoSocial;
     }
-    
-    
     
     
     

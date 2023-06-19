@@ -1,6 +1,7 @@
 
 package br.edu.ifsul.bcc.too.topico4;
 
+import br.edu.ifsul.bcc.too.topico4.PessoaEncapsulada;
 import java.util.ArrayList;
 import java.util.List;
 
